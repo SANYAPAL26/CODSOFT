@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+header h1 span {
+    color: #ff6600;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header ul li:first-child {
+    margin-left: 0;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section.hero {
+    background-image: url('123.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+section.hero h2 {
+    font-size: 40px;
+    margin-bottom: 290px;
+}
+
+section.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section.about {
+    padding: 40px 0;
+}
+
+section.about h3 {
+    margin: 40;
+    padding: 40;
+}
+
+section.about p {
+    font-size:30px 0;
+}
+
+section.services {
+    background-color: #f5f5f5;
+    padding: 30px 0;
+}
+
+section.services h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom:30px;
+}
+
+.service-item {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.service-item img {
+    width: 200px;
+    height:200px;
+}
+
+.service-item h4 {
+    margin: 20px 0;
+}
+
+.service-item p {
+    font-size: 20px;
+}
+
+section.contact {
+    padding: 40px 0;
+}
+
+section.contact h3 {
+    margin: 0;
+    padding: 0;
+}
+
+section.contact form {
+    margin-top: 20px;
+}
+
+section.contact form input,
+section.contact form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+section.contact form textarea {
+    resize: vertical;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+}
